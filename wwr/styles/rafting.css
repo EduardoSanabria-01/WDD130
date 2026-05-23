@@ -64,6 +64,10 @@ nav a {
     font-weight: bold;
 }
 
+nav a:hover {
+    color: var(--secondary-color);
+}
+
 .hero {
     position: relative;
 }
