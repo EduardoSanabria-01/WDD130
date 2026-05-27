@@ -2,7 +2,6 @@
     --primary-color: #1f3f76;
     --secondary-color: #c78753;
     --accent1-color: #10695d;
-    --accent2-color: #a0884a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
     line-height: 1;
@@ -42,6 +41,7 @@ p {
     margin: 16px;
     padding: 8px;
     line-height: 1.6;
+    color: black;
 }
 
 header {
@@ -224,6 +224,6 @@ footer p {
 
 .adventure-gallery figcaption {
     font-size: 0.9rem;
-    color: var(--primary-color);
+    color: var(--accent2-color);
     font-weight: bold;
 }
