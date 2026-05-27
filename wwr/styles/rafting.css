@@ -143,9 +143,9 @@ footer p {
 }
 
 .history-section h2 {
-    width: 840px;
+    width: 100%;
     margin: 0;
-    padding: 30px;
+    padding: 20px;
     background-color: rgb(153, 169, 196);
     text-align: center;
     margin-top: 10px;
@@ -154,26 +154,27 @@ footer p {
 
 .history-container {
     background-color: rgb(153, 169, 196);
-    padding: 0.3rem;
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     align-items: center;
-    width: 840px;
+    justify-content: center;
+    width: 100%;
     height: auto;
 }
 
 .history-container p {
-    margin: 0 auto;
-    padding: 15px;
+    margin: 0;
+    padding: 10px;
     line-height: 1.6;
-    font-size: 1.3rem;
-    text-align: left;
+    font-size: 1.1rem;
+    text-align: justify;
 }
 
 .history-image-box {
-    background-color: rgb(153, 169, 196);
-    padding: 1.5px;
+    background-color: transparent;
+    padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,12 +182,13 @@ footer p {
 }
 
 .history-image-box img {
-    width: 300px;
-    max-width: 300px;
+    width: 100%;
+    max-width: 260px;
     height: auto;
     object-fit: cover;
     display: block;
     border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .adventure-section h2 {
