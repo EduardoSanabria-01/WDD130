@@ -147,14 +147,14 @@ footer p {
     width: 100%;
     margin: 0;
     padding: 20px;
-    background-color: rgb(153, 169, 196);
+    background-color: #617390;
     text-align: center;
     margin-top: 10px;
     margin-bottom: auto;
 }
 
 .history-container {
-    background-color: rgb(153, 169, 196);
+    background-color: #617390;
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -225,6 +225,6 @@ footer p {
 
 .adventure-gallery figcaption {
     font-size: 0.9rem;
-    color: var(--accent2-color);
+    color: var(--primary-color);
     font-weight: bold;
 }
