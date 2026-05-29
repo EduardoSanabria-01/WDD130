@@ -213,7 +213,8 @@ footer p {
 .adventure-gallery figure {
     flex: 1;
     text-align: center;
-    background-color: var(--accent2-color);
+    background-color: #ffffff;
+    ;
     background-color: #ffffff;
     padding: 10px;
     border-radius: 4px;
