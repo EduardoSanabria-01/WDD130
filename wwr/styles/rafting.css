@@ -6,10 +6,6 @@
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
     line-height: 1;
-    --white: #ffffff;
-    --black: #000000;
-    --history-bg: #617390;
-    --gallery-bg: #f5f5f5;
 }
 
 * {
@@ -126,7 +122,13 @@ footer {
     align-items: center;
     padding: 15px 20px;
     background-color: var(--primary-color);
-    color: #fff;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
 }
 
 .socialmedia {
