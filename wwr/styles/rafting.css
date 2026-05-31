@@ -389,3 +389,37 @@ footer p {
 .socialmedia a {
     text-decoration: none;
 }
+
+/* --- ARREGLO DE TÍTULO Y DIRECCIÓN PARA CONTACT.HTML --- */
+
+.contact-title-container {
+    text-align: center;
+    margin: 30px auto 10px auto;
+    padding: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    /* Asegura un fondo blanco limpio */
+}
+
+/* Forzamos a que este h1 NO sea absoluto y se quede en su sitio */
+.contact-title-container h1.contact-main-title {
+    position: relative !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1;
+    background-color: transparent;
+    /* Quitamos el fondo verde del h1 viejo */
+    color: var(--primary-color);
+    /* Usamos tu azul oscuro principal */
+    font-size: 2.2rem;
+    padding: 10px 0;
+}
+
+.contact-title-container .company-details {
+    font-size: 1.1rem;
+    color: var(--accent1-color);
+    line-height: 1.5;
+    margin: 10px 0;
+    font-weight: bold;
+}
