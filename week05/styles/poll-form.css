@@ -1,0 +1,160 @@
+/* ==========================================
+   WDD 130 | HTML Form - User Poll CSS
+   ========================================== */
+
+/* Selector Universal - Reseteo de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+/* Estilos de la página en general */
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.1em;
+    color: #333;
+    background: #fff;
+    padding: 20px 0;
+}
+
+/* Cabecera */
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.8em;
+    color: #000080;
+    /* Azul Marino / Navy */
+    text-align: center;
+}
+
+/* Contenedor del Formulario */
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    /* Fondo gris como la imagen */
+    display: grid;
+}
+
+/* Agrupadores Fieldset */
+fieldset {
+    display: grid;
+    gap: .75rem;
+    margin: 1rem 0;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1.5rem;
+    background-color: #fcfcfc;
+    /* Un fondo casi blanco para el interior */
+}
+
+/* Títulos de las secciones (Legends) */
+legend {
+    padding: 0 0.5rem;
+    color: #000080;
+    /* Navy */
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* Fuentes alternativas para los inputs y etiquetas */
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+/* Etiquetas */
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+/* Inputs de texto, selectores y áreas de texto */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border: 1px solid #777;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* Configuración específica del Textarea */
+textarea {
+    margin-top: 0.5rem;
+}
+
+/* Caja del Checkbox */
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+    justify-self: start;
+    /* Lo alinea a la izquierda en su columna */
+}
+
+/* Botón de Enviar */
+button {
+    margin: 1rem auto;
+    width: 160px;
+    /* Ancho fijo para que no ocupe todo el formulario */
+    background-color: #000080;
+    /* Navy */
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #000050;
+    /* Un azul más oscuro al pasar el mouse */
+}
+
+/* Pie de página */
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+/* ==========================================
+   Clases de Grid para Columnas (.form-item)
+   ========================================== */
+
+.form-item {
+    display: grid;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+/* Para el selector de navegador y el checkbox */
+.column1 {
+    grid-template-columns: 3fr 1fr;
+}
+
+/* Para el Full Name y el Email */
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
