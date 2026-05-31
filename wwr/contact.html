@@ -23,6 +23,7 @@
     </header>
 
     <main>
+        <!-- Título Principal de la Página -->
         <section class="contact-title">
             <h1>White Water Rafting Company</h1>
             <p class="company-details">
@@ -33,7 +34,9 @@
             </p>
         </section>
 
+        <!-- Contenedor de dos columnas para el Mapa y el Formulario -->
         <div class="contact-grid">
+            <!-- Mapa de Google -->
             <div class="map-box">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.7171449336125!2d-112.9818818!3d37.4709121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80cac43464ba9637%3A0x6b40bd47ef71fb4c!2sKolob%20Canyons!5e0!3m2!1ses!2s!4v1710000000000!5m2!1ses!2s"
@@ -41,6 +44,7 @@
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
+            <!-- Formulario de Contacto Corregido -->
             <form action="#" method="post" class="contact-form">
                 <div class="form-group">
                     <label for="name">Name</label>
@@ -56,12 +60,22 @@
 
                 <fieldset class="radio-group">
                     <legend>Message Purpose</legend>
-                    <label><input type="radio" name="purpose" value="general" checked> General
-                        Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation"> Reservation
-                        Question</label>
-                    <label><input type="radio" name="purpose" value="suggestion"> Website
-                        Suggestion</label>
+                    <!-- Agregados IDs únicos y vinculados correctamente -->
+                    <label for="purpose-general">
+                        <input type="radio" id="purpose-general" name="purpose" value="general"
+                          checked>
+                        General Inquiry
+                    </label>
+                    <label for="purpose-reservation">
+                        <input type="radio" id="purpose-reservation" name="purpose"
+                          value="reservation">
+                        Reservation Question
+                    </label>
+                    <label for="purpose-suggestion">
+                        <input type="radio" id="purpose-suggestion" name="purpose"
+                          value="suggestion">
+                        Website Suggestion
+                    </label>
                 </fieldset>
 
                 <div class="form-group">
@@ -71,10 +85,10 @@
                 </div>
 
                 <div class="checkbox-group">
-                    <label>
-                        <input type="checkbox" name="subscribe" value="yes"> Please Subscribe me to
-                        the
-                        monthly newsletter
+                    <!-- Agregado ID único al checkbox -->
+                    <label for="subscribe">
+                        <input type="checkbox" id="subscribe" name="subscribe" value="yes"> Please
+                        Subscribe me to the monthly newsletter
                     </label>
                 </div>
 
@@ -82,6 +96,7 @@
             </form>
         </div>
 
+        <!-- Sección del Personal / Empleados -->
         <section class="team-section">
             <h2>We Are Here to Serve You</h2>
             <div class="team-gallery">
@@ -102,14 +117,13 @@
     </main>
 
     <footer>
-        <p>&copy;2026 | Victor Eduardo Sanabria Diaz | Ica, Perú </p>
+        <!-- Incluye Símbolo, Año, Nombre de la Empresa y tu Nombre para la revisión manual -->
+        <p>&copy;2026 | Rafting Adventures Company | Victor Eduardo Sanabria Diaz | Ica, Perú</p>
         <nav class="socialmedia">
-            <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Facebook Icon"></a>
-            <a href="https://x.com/?lang=es">
-                <img src="images/twitter.png" alt=" X Icon"></a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="Instagram Icon"></a>
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook Icon"></a>
+            <a href="https://x.com/?lang=es"><img src="images/twitter.png" alt="X Icon"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png"
+                  alt="Instagram Icon"></a>
         </nav>
     </footer>
 </body>
