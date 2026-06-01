@@ -1,6 +1,3 @@
-/* ==========================================
-   1. VARIABLES Y CONFIGURACIÓN INICIAL (:root)
-   ========================================== */
 :root {
     --primary-color: #1f3f76;
     --secondary-color: #c78753;
@@ -48,9 +45,6 @@ p {
     color: #000000;
 }
 
-/* ==========================================
-   2. HEADER Y NAVEGACIÓN (Estructura Común)
-   ========================================== */
 header {
     background-color: var(--primary-color);
     width: 840px;
@@ -81,9 +75,6 @@ nav a:hover {
     color: var(--secondary-color);
 }
 
-/* ==========================================
-   3. SECCIÓN HERO (Presente en about.html)
-   ========================================== */
 .hero {
     position: relative;
 }
@@ -124,9 +115,6 @@ h1 {
     box-shadow: 0 0 30px rgb(134, 150, 134);
 }
 
-/* ==========================================
-   4. SECCIÓN HISTORY Y AVENTURAS (about.html)
-   ========================================== */
 .history-section h2 {
     width: 100%;
     margin: 0;
@@ -218,9 +206,6 @@ h1 {
     font-weight: bold;
 }
 
-/* ==========================================
-   5. MAPA Y FORMULARIO DE CONTACTO (contact.html)
-   ========================================== */
 .contact-title {
     text-align: center;
     margin: 20px 0;
@@ -302,7 +287,6 @@ h1 {
 
 .submit-btn {
     background-color: #8c532b;
-    /* Tono café más oscuro que pasa la prueba WCAG AA contra el blanco */
     color: #ffffff;
     padding: 10px;
     font-weight: bold;
@@ -315,12 +299,8 @@ h1 {
 
 .submit-btn:hover {
     background-color: var(--primary-color);
-    /* Cambia al azul oscuro en hover */
 }
 
-/* ==========================================
-   6. SECCIÓN DE EMPLEADOS (contact.html)
-   ========================================== */
 .team-section h2 {
     text-align: center;
     padding: 15px;
@@ -357,9 +337,6 @@ h1 {
     color: var(--primary-color);
 }
 
-/* ==========================================
-   7. FOOTER (Estructura Común)
-   ========================================== */
 footer {
     display: flex;
     justify-content: space-between;
@@ -373,7 +350,7 @@ footer p {
     margin: 0;
     padding: 0;
     color: #ffffff;
-    /* Contraste aprobado WCAG AA */
+
 }
 
 .socialmedia {
@@ -390,18 +367,15 @@ footer p {
     text-decoration: none;
 }
 
-/* --- ARREGLO DE TÍTULO Y DIRECCIÓN PARA CONTACT.HTML --- */
-
 .contact-title-container {
     text-align: center;
     margin: 30px auto 10px auto;
     padding: 10px;
     width: 100%;
     background-color: #ffffff;
-    /* Asegura un fondo blanco limpio */
+
 }
 
-/* Forzamos a que este h1 NO sea absoluto y se quede en su sitio */
 .contact-title-container h1.contact-main-title {
     position: relative !important;
     top: 0;
@@ -409,9 +383,7 @@ footer p {
     width: 100%;
     opacity: 1;
     background-color: transparent;
-    /* Quitamos el fondo verde del h1 viejo */
     color: var(--primary-color);
-    /* Usamos tu azul oscuro principal */
     font-size: 2.2rem;
     padding: 10px 0;
 }
