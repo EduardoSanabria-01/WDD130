@@ -182,14 +182,13 @@ h1 {
     margin-bottom: 30px;
 }
 
-.adventure-gallery figure {
+.adventure-gallery .trip-card {
     flex: 1;
     text-align: center;
     background-color: #ffffff;
     padding: 10px;
     border-radius: 4px;
     border: 2px solid var(--accent2-color);
-    /* Uso correcto de la variable */
 }
 
 .adventure-gallery img {
@@ -200,10 +199,11 @@ h1 {
     margin-bottom: 8px;
 }
 
-.adventure-gallery figcaption {
-    font-size: 0.9rem;
+.adventure-gallery h3 {
+    font-size: 1.1rem;
     color: var(--primary-color);
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .contact-title {
@@ -350,7 +350,6 @@ footer p {
     margin: 0;
     padding: 0;
     color: #ffffff;
-
 }
 
 .socialmedia {
@@ -373,7 +372,6 @@ footer p {
     padding: 10px;
     width: 100%;
     background-color: #ffffff;
-
 }
 
 .contact-title-container h1.contact-main-title {
@@ -418,4 +416,13 @@ footer p {
     object-fit: cover;
     border-radius: 4px;
     margin-bottom: 12px;
+}
+
+.trips-data-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.trips-data-table tr:nth-of-type(even) {
+    background-color: whitesmoke;
 }
